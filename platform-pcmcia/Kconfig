@@ -1,0 +1,5 @@
+config PCMCIA_ACX
+        tristate "TI acx100/acx111 802.11b/g wireless PCMCIA"
+        depends on ACX_MAC80211_MEM
+        ---help---
+        The driver can be compiled as a module and will be named "pcmcia-acx".
